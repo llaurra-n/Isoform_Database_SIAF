@@ -10,7 +10,7 @@ Traditional proteomic search pipelines struggle to identify unique alternative s
 
 This project scales a targeted strategy to bypass these limitations. By isolating and targeting **only the unique sequence regions**, **alternative C-terminal variants**, and **neo-N-termini** generated via post-prenylation processing, this custom database restricts the search space strictly to enzyme-specific, unique proteoform regions. 
 
-The resulting streamlined databases can be integrated directly into proteotypic-filtered search pipelines (e.g., MaxQuant).
+The resulting streamlined databases can be integrated directly into proteotypic-filtered search pipelines like MaxQuant.
 
 ---
 
@@ -30,7 +30,7 @@ The feasibility of this targeted approach was demonstrated in a pilot study of 3
 Building on the pilot study, this repository contains the pipeline to scale this strategy comprehensively:
 
 * **Enzyme-Specific Scalability:** Scale the targeted database creation into a comprehensive, automated pipeline.
-* **C-Terminal Isolation:** Programmatically isolate unique alternative C-terminal variants.
+* **C-Terminal Isolation:** Isolate unique alternative C-terminal variants.
 * **Processing Integration:** Incorporate specific neo-N-terminal sequences generated through post-prenylation processing pathways.
 * **Pipeline Integration:** Format and optimize the engineered databases for direct deployment in standard proteotypic-filtered search workflows.
 
