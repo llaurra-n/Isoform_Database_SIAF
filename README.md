@@ -14,17 +14,6 @@ The resulting streamlined databases can be integrated directly into proteotypic-
 
 ---
 
-## Proof of Concept
-
-The feasibility of this targeted approach was demonstrated in a pilot study of 34 prenylated proteins. These targets lacked canonical C-terminal prenylation motifs or target cysteines in their reference canonical forms, but contained them within alternative splice isoforms.
-
-### Workflow & Results:
-1. **In Silico Digestion:** Alternative C-terminal isoforms were computationally digested to extract isoform-specific C-terminal peptides.
-2. **Unique Sequence Generation:** Distinct, unique sequences of sufficient length were successfully generated for **31 out of the 34 proteins**.
-3. **Novel Discovery:** Appending this miniature, isoform-specific database to the reference human proteome and re-searching published Th1 cell mass spectrometry data resulted in the novel identification of a peptide unique to the third isoform of the signal peptidase complex subunit **SEC11A** (*Koch et al., 2025*).
-
----
-
 ## Project Objectives
 
 Building on the pilot study, this repository contains the pipeline to scale this strategy comprehensively:
